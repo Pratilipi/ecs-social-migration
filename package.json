@@ -1,0 +1,21 @@
+{
+  "name": "social--migration",
+  "version": "1.0.0",
+  "description": "Service to handle all social activities urls.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.2",
+    "@google-cloud/monitoring": "0.2.0",
+    "googleapis": "18.0.0",
+    "redis": "2.7.1",
+    "@google-cloud/datastore": "1.0.0",
+    "bluebird": "3.5.0",
+    "lodash": "4.17.4"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,12 @@
+FROM $DOCKER_REPO/node:8.0.0
+
+COPY package.json .
+RUN npm install
+
+COPY test test
+COPY lib lib
+COPY server.js .
+
+EXPOSE 80
+
+CMD [ "npm", "start" ]
